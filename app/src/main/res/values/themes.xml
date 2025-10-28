@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.Test02" parent="android:Theme.Material.Light.NoActionBar" />
+
+        <!-- Base application theme. -->
+        <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+            <!-- 主题颜色配置（实验可默认，无需修改，保持原有颜色值即可） -->
+            <item name="colorPrimary">@color/colorPrimary</item>
+            <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+            <item name="colorAccent">@color/colorAccent</item>
+
+
+            <!-- res/values/themes.xml -->
+
+            <item name="android:statusBarColor">@android:color/transparent</item>
+            <!-- 图标变暗（适合浅色背景） -->
+            <item name="android:windowLightStatusBar">true</item>
+        </style>
+
+</resources>
